@@ -1,7 +1,3 @@
-This is a sample `README.md` you can use for your GitHub project. Adjust names, screenshots, and links as needed.
-
-***
-
 # Vaisiri Voice Assistant
 
 Vaisiri Voice Assistant is a Python-based desktop voice assistant with a modern GUI, wake-word activation, and conversational AI. It uses Google Speech Recognition for speech-to-text, a modular LLM/knowledge-base layer for responses, and Windows text-to-speech for natural spoken output.
@@ -144,11 +140,3 @@ Adjust the structure to match your actual layout.
 - Add command-specific actions (open apps, control system, etc.)  
 - Add multi-language support  
 - Package as an executable for easy installation
-
-## License
-
-Add your chosen license here (e.g., MIT, Apache-2.0).
-
-***
-
-You can copy this into `README.md` and then tweak technology names, paths, and commands to exactly match your project.
