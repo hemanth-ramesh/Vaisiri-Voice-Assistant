@@ -1,0 +1,28 @@
+# Vaisiri Voice Assistant Configuration
+
+wake_word:
+  enabled: true
+  keyword: "why siri"  # chage to which ever wake word you prefer
+  sensitivity: 0.5
+  timeout: 5.0
+
+audio:
+  sample_rate: 16000
+  chunk_size: 1024
+  channels: 1
+
+stt:
+  primary_engine: "google"
+
+llm:
+  provider: "local"  # Using local AI now
+  model: "Gemni"  # Medium model for quality
+  max_tokens: 80
+  temperature: 0.8
+  system_prompt: "You are Vaisiri, a helpful AI assistant. Provide clear, informative responses."
+
+tts:
+  engine: "pyttsx3"
+
+logging:
+  level: "INFO"

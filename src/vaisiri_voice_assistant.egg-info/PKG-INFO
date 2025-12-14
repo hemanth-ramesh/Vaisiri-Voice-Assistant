@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: vaisiri-voice-assistant
+Version: 1.0.0
+Summary: A modular voice assistant
+Requires-Python: >=3.8
+Dynamic: requires-python
+Dynamic: summary
